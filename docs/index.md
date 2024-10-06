@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Manjaro Docs"
   text: "Manjaro docs built with VitePress"
-  tagline: My great project tagline
+  tagline: Concept of proof site for Manjaro docs
   actions:
     - theme: brand
       text: Markdown Examples
