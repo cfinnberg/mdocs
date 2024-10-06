@@ -21,6 +21,7 @@ export default defineConfig({
       link: 'fi/guide.md'
     }
   },
+  head: [['link', {rel: 'icon', href: '/mdocs/favicon.png'}]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
