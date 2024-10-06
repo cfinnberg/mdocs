@@ -5,6 +5,22 @@ export default defineConfig({
   title: "Manjaro Docs",
   description: "Manjaro docs built with VitePress",
   base: '/mdocs',
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    es: {
+      label: 'Spanish / Español',
+      lang: 'es',
+      link: 'es/guide.md'
+    },
+    fi: {
+      label: 'Finnish / Suomi',
+      lang: 'fi',
+      link: 'fi/guide.md'
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

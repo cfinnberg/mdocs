@@ -4,16 +4,16 @@ layout: home
 
 hero:
   name: "Manjaro Docs"
-  text: "Manjaro docs built with VitePress"
-  tagline: Proof of concept for new Manjaro docs site
+  text: "Documentación de Manjaro hechos con VitePress"
+  tagline: Prueba de concepto para el nuevo sitio de documentación de Manjaro
   actions:
-    - theme: brand
+    - theme: alt
       text: English
       link: /
     - theme: alt
       text: Finnish / Suomi
       link: /fi/guide.md
-    - theme: alt
+    - theme: brand
       text: Spanish / Español
       link: /es/guide.md
 
@@ -26,4 +26,3 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-Esto es un texto de prueba
