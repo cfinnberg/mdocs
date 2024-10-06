@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Manjaro Docs",
   description: "Manjaro docs built with VitePress",
+  base: '/mdocs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
