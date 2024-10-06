@@ -26,4 +26,4 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-Esto es un texto de prueba
+This is the landing page content. It accepts Vue expressions: 1 + 1 = {{ 1 + 1 }}
