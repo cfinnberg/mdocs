@@ -34,12 +34,18 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Documentation',
+        items: [
+          { text: 'Switching branches', link: '/switching-branches'},
+        ]
+      },
+      {
+        text: 'VitePress examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
         ]
-      }
+      },
     ],
 
     socialLinks: [
