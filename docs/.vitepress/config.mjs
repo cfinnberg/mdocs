@@ -45,5 +45,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
+
+    editLink: {
+      // The following URL needs to be changed to the correct one!!!
+      pattern: 'https://github.com/cfinnberg/mdocs/edit/main/docs/:path'
+    },
   },
 })
