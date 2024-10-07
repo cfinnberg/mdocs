@@ -1,0 +1,67 @@
+/* Custom CSS for the VitePress default theme */
+:root {
+    --vp-nav-logo-height: 48px;
+
+    /* Default colors for reference */
+    --vp-c-gray-1: #dddde3;
+    --vp-c-gray-2: #e4e4e9;
+    --vp-c-gray-3: #ebebef;
+    --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
+  
+    --vp-c-indigo-1: #3451b2;
+    --vp-c-indigo-2: #3a5ccc;
+    --vp-c-indigo-3: #5672cd;
+    --vp-c-indigo-soft: rgba(100, 108, 255, 0.14);
+  
+    --vp-c-purple-1: #6f42c1;
+    --vp-c-purple-2: #7e4cc9;
+    --vp-c-purple-3: #8e5cd9;
+    --vp-c-purple-soft: rgba(159, 122, 234, 0.14);
+  
+    --vp-c-green-1: #18794e;
+    --vp-c-green-2: #299764;
+    --vp-c-green-3: #30a46c;
+    --vp-c-green-soft: rgba(16, 185, 129, 0.14);
+  
+    --vp-c-yellow-1: #915930;
+    --vp-c-yellow-2: #946300;
+    --vp-c-yellow-3: #9f6a00;
+    --vp-c-yellow-soft: rgba(234, 179, 8, 0.14);
+  
+    --vp-c-red-1: #b8272c;
+    --vp-c-red-2: #d5393e;
+    --vp-c-red-3: #e0575b;
+    --vp-c-red-soft: rgba(244, 63, 94, 0.14);
+  
+    --vp-c-sponsor: #db2777;
+
+    /* Custom colors Palette */
+    --vp-c-manjarogreen-1: #33af99; /* Text */
+    --vp-c-manjarogreen-2: #266e61; /* Hover */
+    --vp-c-manjarogreen-3: #35bfa5; /* Background */
+    --vp-c-manjarogreen-soft: #eaf8f6; /* Subtle background */
+
+    /* Default background colors */
+    --vp-c-bg: #ffffff; /* Main screen */
+    --vp-c-bg-alt: #f6f6f7; /* Sidebar, Codeblock */
+    --vp-c-bg-elv: #ffffff; /* Dialogs */
+    --vp-c-bg-soft: #f6f6f7; /* Carbon ads, table */
+
+
+    /* Custom brand colors */
+    --vp-c-brand-1: var(--vp-c-manjarogreen-1);
+    --vp-c-brand-2: var(--vp-c-manjarogreen-2);
+    --vp-c-brand-3: var(--vp-c-manjarogreen-3);
+    --vp-c-brand-soft: var(--vp-c-manjarogreen-soft);
+    --vp-sidebar-bg-color: var(--vp-c-manjarogreen-soft);
+    --vp-custom-block-info-bg: #d6e9f2;
+    --vp-custom-block-tip-bg: #edd6f2;
+    --vp-custom-block-danger-bg: #e6143857;
+    --vp-code-block-bg: #f7fff7;
+
+}
+
+::selection {
+    color: white;
+    background-color: #299764;
+}
