@@ -12,10 +12,10 @@ hero:
       link: /
     - theme: alt
       text: Finnish / Suomi
-      link: /fi/guide.md
+      link: /fi/
     - theme: alt
       text: Spanish / Español
-      link: /es/guide.md
+      link: /es/
 
 features:
   - title: Feature A

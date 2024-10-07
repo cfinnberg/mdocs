@@ -15,12 +15,12 @@ export default defineConfig({
     es: {
       label: 'Spanish / Español',
       lang: 'es',
-      link: 'es/guide.md'
+      link: '/es/'
     },
     fi: {
       label: 'Finnish / Suomi',
       lang: 'fi',
-      link: 'fi/guide.md'
+      link: '/fi/'
     }
   },
   head: [['link', {rel: 'icon', href: `${base}/manjarodocs_logo.svg`}]],
