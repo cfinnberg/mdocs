@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/mdocs';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Manjaro Docs",
   description: "Manjaro docs built with VitePress",
-  base: '/mdocs',
+  base: `${base}/`,
   locales: {
     root: {
       label: 'English',
@@ -21,9 +23,10 @@ export default defineConfig({
       link: 'fi/guide.md'
     }
   },
-  head: [['link', {rel: 'icon', href: '/mdocs/favicon.png'}]],
+  head: [['link', {rel: 'icon', href: `${base}/manjarodocs_logo.svg`}]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/manjarodocs_logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -41,6 +44,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    ],
+  },
 })
