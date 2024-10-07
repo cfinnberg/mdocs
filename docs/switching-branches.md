@@ -4,7 +4,7 @@
 
 ::: info
 Manjaro specific packages downloaded and installed from the <i>Testing branch</i> or <i>Unstable branch</i> will, by nature, not have been fully tested, and may be unstable.
-Please refer to [System Maintenance](/system-maintenance) Section for important maintenance information.
+Please refer to [System Maintenance](/) Section for important maintenance information.
 :::
 
 One of the many features that sets Manjaro apart from other Arch-based distributions is that it uses its own dedicated software branches, rather than relying on those provided by Arch itself. In fact, to ensure continued stability and reliability, Manjaro actually uses three distinct branches:
